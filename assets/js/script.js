@@ -1,3 +1,4 @@
+// script loading before page
 document.onreadystatechange = function () {
     if (document.readyState !== "complete") {
         document.querySelector(
@@ -11,7 +12,9 @@ document.onreadystatechange = function () {
             "body").style.visibility = "visible";
     }
 };
+// script loading before page
 
+// script smooth scrolling
 const links = document.querySelectorAll("nav ul a");
 
 for (const link of links) {
@@ -28,3 +31,4 @@ function clickHandler(e) {
         behavior: "smooth"
     });
 }
+// script smooth scrolling
