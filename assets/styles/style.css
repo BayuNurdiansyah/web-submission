@@ -1,16 +1,8 @@
-/* Pallete
-#004d98
-#a50044
-	#edbb00
-    #ffed02
-	#db0030
-*/
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 * {
     box-sizing: border-box;
 }
-
 
 body {
     font-family: 'Quicksand', sans-serif;
@@ -53,6 +45,7 @@ nav a {
     text-decoration: none;
     color: white;
 }
+
 nav a:hover {
     color: #db0030;
 }
@@ -80,7 +73,8 @@ nav a:hover {
     left: 0;
     right: 0;
     margin: auto;
-} 
+}
+
 #content {
     float: left;
     width: 75%;
@@ -135,7 +129,7 @@ footer {
     color: white;
     text-align: center;
 }
- 
+
 .center { 
     position: absolute; 
     top: 0; 
